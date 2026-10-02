@@ -1,0 +1,4 @@
+demand,B,node,link,seed,N,G_bypass,DL_bypass,DN_bypass,H_bypass,node_presence_bypass,link_presence_bypass,G_fifo,DL_fifo,DN_fifo,H_fifo,node_presence_fifo,link_presence_fifo,delta_G,T,IL,IN,strict_seed_reversal,either_tie
+1.0,2,1.0,1.0,1,100,-10.0,10.0,20.0,0.0,-20.0,-10.0,-5.0,20.0,25.0,-5.0,-22.5,-17.5,5.0,-5.0,10.0,5.0,False,False
+1.0,2,1.0,1.0,2,100,-10.0,10.0,20.0,0.0,-20.0,-10.0,-5.0,20.0,25.0,-5.0,-22.5,-17.5,5.0,-5.0,10.0,5.0,False,False
+1.0,2,1.0,1.0,3,100,-10.0,10.0,20.0,0.0,-20.0,-10.0,-5.0,20.0,25.0,-5.0,-22.5,-17.5,5.0,-5.0,10.0,5.0,False,False

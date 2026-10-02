@@ -1,0 +1,12 @@
+ARIR R68: local analysis reproduction bundle
+
+1. Install numpy, pandas and scipy in your Python environment. The original environment record is ENVIRONMENT.json; this turn tested in the available environment, not a newly installed environment.
+2. Arithmetic/interface fixture: python review_example/run.py
+3. Real 100-demand-set worked example: python reproduce_worked_example.py
+4. Full stored-summary analysis: python arir.py --runs runs --output regenerated_report --events logs
+
+The fourth command reads 43,200 stored simulation summaries and uses 4,000 bootstrap resamples. Compare regenerated_report with report. It does not rerun 43,200 simulations. Only 24 selected runs have full stored visit logs; hashes in summaries cannot recreate missing event histories.
+The worked example uses seeds 20000-20099, demand 1, B=2, node=1, link=1.5 (800 records). It checks the reported absolute means and contrast decomposition, not the original 108-effect inferential family.
+For simulator reruns, independent-code checks, all inputs and supplementary analyses, use R68_complete_source_and_data.zip and its environment records. That archive is retained unchanged for provenance.
+UPSTREAM_IMPLEMENTATION_README.txt describes the original full-directory layout; use the commands above for THIS smaller bundle.
+No repository URL, DOI, external reviewer access, open-source licence or third-party reproduction is asserted. This is a local preparation package. Confirm rights and any anonymity requirements before publication.

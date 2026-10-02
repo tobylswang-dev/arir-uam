@@ -1,0 +1,18 @@
+{
+  "actual_runs": 24,
+  "request_sets": 3,
+  "settings": 1,
+  "invariant_groups": 12,
+  "invariant_failures": 0,
+  "max_node_spread_delta_G": 0.0,
+  "family_effects": 2,
+  "mean_reversals": [
+    {
+      "demand": 1.0,
+      "B": 2,
+      "mean_reversal_cells": 0,
+      "settings": 1,
+      "paired_seed_reversals": 0
+    }
+  ]
+}

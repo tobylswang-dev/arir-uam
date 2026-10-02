@@ -1,0 +1,53 @@
+{
+  "actual_runs": 43200,
+  "request_sets": 300,
+  "settings": 54,
+  "invariant_groups": 5700,
+  "invariant_failures": 0,
+  "max_node_spread_delta_G": 7.105427357601002e-15,
+  "family_effects": 108,
+  "mean_reversals": [
+    {
+      "demand": 0.8,
+      "B": 2,
+      "mean_reversal_cells": 2,
+      "settings": 9,
+      "paired_seed_reversals": 176
+    },
+    {
+      "demand": 0.8,
+      "B": 4,
+      "mean_reversal_cells": 1,
+      "settings": 9,
+      "paired_seed_reversals": 146
+    },
+    {
+      "demand": 1.0,
+      "B": 2,
+      "mean_reversal_cells": 2,
+      "settings": 9,
+      "paired_seed_reversals": 192
+    },
+    {
+      "demand": 1.0,
+      "B": 4,
+      "mean_reversal_cells": 1,
+      "settings": 9,
+      "paired_seed_reversals": 160
+    },
+    {
+      "demand": 1.5,
+      "B": 2,
+      "mean_reversal_cells": 2,
+      "settings": 9,
+      "paired_seed_reversals": 221
+    },
+    {
+      "demand": 1.5,
+      "B": 4,
+      "mean_reversal_cells": 2,
+      "settings": 9,
+      "paired_seed_reversals": 222
+    }
+  ]
+}

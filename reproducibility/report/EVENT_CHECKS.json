@@ -1,0 +1,314 @@
+[
+  {
+    "file": "s10000_B2_n1_l1.5_bypass.json.gz",
+    "visits": 15255,
+    "counts": {
+      "released": 1118,
+      "node_gate": 4832,
+      "both_gates": 4959,
+      "link_gate": 4228,
+      "cancel": 118
+    }
+  },
+  {
+    "file": "s10000_B2_n1_l1.5_fifo.json.gz",
+    "visits": 19345,
+    "counts": {
+      "released": 1055,
+      "node_gate": 470,
+      "fifo_node_gate": 5163,
+      "fifo_both_gates": 3257,
+      "link_gate": 602,
+      "fifo_eligible": 3310,
+      "fifo_link_gate": 5115,
+      "both_gates": 202,
+      "cancel": 171
+    }
+  },
+  {
+    "file": "s10000_B2_n1_l1_bypass.json.gz",
+    "visits": 15273,
+    "counts": {
+      "released": 1026,
+      "node_gate": 897,
+      "both_gates": 2551,
+      "link_gate": 10649,
+      "cancel": 150
+    }
+  },
+  {
+    "file": "s10000_B2_n1_l1_fifo.json.gz",
+    "visits": 22385,
+    "counts": {
+      "released": 919,
+      "node_gate": 270,
+      "fifo_node_gate": 2363,
+      "fifo_both_gates": 2981,
+      "link_gate": 1115,
+      "fifo_eligible": 5359,
+      "fifo_link_gate": 8904,
+      "both_gates": 240,
+      "cancel": 234
+    }
+  },
+  {
+    "file": "s10000_B4_n1_l1.5_bypass.json.gz",
+    "visits": 14429,
+    "counts": {
+      "released": 1131,
+      "node_gate": 5833,
+      "both_gates": 2697,
+      "link_gate": 4654,
+      "cancel": 114
+    }
+  },
+  {
+    "file": "s10000_B4_n1_l1.5_fifo.json.gz",
+    "visits": 17886,
+    "counts": {
+      "released": 1094,
+      "node_gate": 462,
+      "fifo_node_gate": 5194,
+      "both_gates": 67,
+      "fifo_both_gates": 951,
+      "link_gate": 571,
+      "fifo_eligible": 3557,
+      "fifo_link_gate": 5845,
+      "cancel": 145
+    }
+  },
+  {
+    "file": "s10000_B4_n1_l1_bypass.json.gz",
+    "visits": 14011,
+    "counts": {
+      "released": 1043,
+      "node_gate": 1016,
+      "both_gates": 833,
+      "link_gate": 10978,
+      "cancel": 141
+    }
+  },
+  {
+    "file": "s10000_B4_n1_l1_fifo.json.gz",
+    "visits": 20405,
+    "counts": {
+      "released": 964,
+      "node_gate": 168,
+      "fifo_node_gate": 992,
+      "both_gates": 71,
+      "link_gate": 1118,
+      "fifo_eligible": 6340,
+      "fifo_link_gate": 9821,
+      "fifo_both_gates": 725,
+      "cancel": 206
+    }
+  },
+  {
+    "file": "s20000_B2_n1_l1.5_bypass.json.gz",
+    "visits": 24903,
+    "counts": {
+      "link_gate": 5318,
+      "released": 1316,
+      "both_gates": 7719,
+      "node_gate": 10332,
+      "cancel": 218
+    }
+  },
+  {
+    "file": "s20000_B2_n1_l1.5_fifo.json.gz",
+    "visits": 29724,
+    "counts": {
+      "link_gate": 800,
+      "released": 1238,
+      "both_gates": 349,
+      "fifo_link_gate": 7013,
+      "node_gate": 605,
+      "fifo_node_gate": 9357,
+      "fifo_eligible": 4500,
+      "fifo_both_gates": 5585,
+      "cancel": 277
+    }
+  },
+  {
+    "file": "s20000_B2_n1_l1_bypass.json.gz",
+    "visits": 25972,
+    "counts": {
+      "link_gate": 14005,
+      "released": 1204,
+      "both_gates": 6626,
+      "node_gate": 3891,
+      "cancel": 246
+    }
+  },
+  {
+    "file": "s20000_B2_n1_l1_fifo.json.gz",
+    "visits": 35096,
+    "counts": {
+      "link_gate": 1501,
+      "released": 1044,
+      "both_gates": 392,
+      "fifo_link_gate": 12635,
+      "node_gate": 303,
+      "fifo_node_gate": 4720,
+      "fifo_eligible": 8738,
+      "fifo_both_gates": 5394,
+      "cancel": 369
+    }
+  },
+  {
+    "file": "s20000_B4_n1_l1.5_bypass.json.gz",
+    "visits": 23954,
+    "counts": {
+      "link_gate": 5426,
+      "released": 1336,
+      "node_gate": 12385,
+      "both_gates": 4603,
+      "cancel": 204
+    }
+  },
+  {
+    "file": "s20000_B4_n1_l1.5_fifo.json.gz",
+    "visits": 27683,
+    "counts": {
+      "link_gate": 772,
+      "released": 1281,
+      "node_gate": 598,
+      "fifo_node_gate": 9437,
+      "both_gates": 82,
+      "fifo_both_gates": 1197,
+      "fifo_link_gate": 8916,
+      "fifo_eligible": 5150,
+      "cancel": 250
+    }
+  },
+  {
+    "file": "s20000_B4_n1_l1_bypass.json.gz",
+    "visits": 24431,
+    "counts": {
+      "link_gate": 15745,
+      "released": 1228,
+      "node_gate": 4376,
+      "both_gates": 2845,
+      "cancel": 237
+    }
+  },
+  {
+    "file": "s20000_B4_n1_l1_fifo.json.gz",
+    "visits": 31934,
+    "counts": {
+      "link_gate": 1500,
+      "released": 1116,
+      "node_gate": 245,
+      "fifo_node_gate": 3192,
+      "fifo_link_gate": 14197,
+      "fifo_eligible": 10226,
+      "fifo_both_gates": 1061,
+      "both_gates": 72,
+      "cancel": 325
+    }
+  },
+  {
+    "file": "s30000_B2_n1_l1.5_bypass.json.gz",
+    "visits": 42753,
+    "counts": {
+      "link_gate": 9364,
+      "released": 1541,
+      "node_gate": 19341,
+      "both_gates": 12079,
+      "cancel": 428
+    }
+  },
+  {
+    "file": "s30000_B2_n1_l1.5_fifo.json.gz",
+    "visits": 46839,
+    "counts": {
+      "link_gate": 932,
+      "released": 1456,
+      "node_gate": 896,
+      "both_gates": 474,
+      "fifo_node_gate": 16097,
+      "fifo_both_gates": 9189,
+      "fifo_link_gate": 11135,
+      "fifo_eligible": 6170,
+      "cancel": 490
+    }
+  },
+  {
+    "file": "s30000_B2_n1_l1_bypass.json.gz",
+    "visits": 41439,
+    "counts": {
+      "link_gate": 21661,
+      "released": 1404,
+      "node_gate": 5873,
+      "both_gates": 12034,
+      "cancel": 467
+    }
+  },
+  {
+    "file": "s30000_B2_n1_l1_fifo.json.gz",
+    "visits": 54530,
+    "counts": {
+      "link_gate": 1622,
+      "released": 1174,
+      "node_gate": 438,
+      "both_gates": 478,
+      "fifo_eligible": 12586,
+      "fifo_node_gate": 7960,
+      "fifo_both_gates": 9265,
+      "fifo_link_gate": 20372,
+      "cancel": 635
+    }
+  },
+  {
+    "file": "s30000_B4_n1_l1.5_bypass.json.gz",
+    "visits": 41730,
+    "counts": {
+      "link_gate": 8546,
+      "released": 1559,
+      "node_gate": 24042,
+      "both_gates": 7158,
+      "cancel": 425
+    }
+  },
+  {
+    "file": "s30000_B4_n1_l1.5_fifo.json.gz",
+    "visits": 44682,
+    "counts": {
+      "link_gate": 955,
+      "released": 1510,
+      "node_gate": 1001,
+      "fifo_node_gate": 17391,
+      "both_gates": 88,
+      "fifo_both_gates": 1929,
+      "fifo_link_gate": 14319,
+      "fifo_eligible": 7027,
+      "cancel": 462
+    }
+  },
+  {
+    "file": "s30000_B4_n1_l1_bypass.json.gz",
+    "visits": 39996,
+    "counts": {
+      "link_gate": 23651,
+      "released": 1436,
+      "node_gate": 8526,
+      "both_gates": 5934,
+      "cancel": 449
+    }
+  },
+  {
+    "file": "s30000_B4_n1_l1_fifo.json.gz",
+    "visits": 50289,
+    "counts": {
+      "link_gate": 1889,
+      "released": 1278,
+      "node_gate": 365,
+      "fifo_node_gate": 6392,
+      "both_gates": 149,
+      "fifo_both_gates": 2258,
+      "fifo_link_gate": 23324,
+      "fifo_eligible": 14070,
+      "cancel": 564
+    }
+  }
+]

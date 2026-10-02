@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-09-28T19:55:22.450315+00:00",
+  "scope": "Internal pre-execution record; not public preregistration or external timestamp",
+  "sha256": {
+    "transfer/model.py": "aeedf339792b1ee92dbe93ed8024777932e1726d6997dfa528ccbb64d93cd0e8",
+    "transfer/validate.py": "ba7f4606468ad8504d570ce4b8e8fc2203b844486dda62563f594b4e90ccaa96",
+    "transfer/run.py": "01fc85b1ff420359a119f7d091b827413724bfd13cce9c77b50f680d29392a57",
+    "transfer/PROTOCOL.md": "44d6859243016a7bb2c0bc7ce40a024df653311c12960bab9c8b209bfb86e711",
+    "code/uam_sim/config.py": "8b2db71fc88c41ee913ecff69da3fc589fb5af391c3ee3660e4fdcc96c8b250e",
+    "code/uam_sim/__init__.py": "e8b40a6223111f3cb117ee8e9ac6c28c8223d9a2998642fe0fc2053d8312860d",
+    "code/uam_sim/simulator.py": "5e61fe212c1b678a07209eb173bb5e2e2928d961368e72d4c87ba0da10fe5497",
+    "code/uam_sim/entities.py": "040bd5e255aa5992b50901e6289516aaa02512a4ae0926fd357045e699944752",
+    "code/uam_sim/router.py": "93cde61e7b8f934b26155e42bfced7a4410051e7c151ea4f7bb48ee9b3e3d944",
+    "code/uam_sim/network.py": "3791ee7ea4a7a98fbeb91f02c7926a51d52b8c3c488ee7ba302f592f39d77719",
+    "code/uam_sim/demand.py": "d88dd8048a152383a6fd2c29d98c12cad1bbb4d55f16f2da8c503f4a96d08c6d",
+    "code/revised.py": "86e759761cae521e01684b22193b0a5c90ee6b3dd2398770527eceba86095c4d"
+  }
+}

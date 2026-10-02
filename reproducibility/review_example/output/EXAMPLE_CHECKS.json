@@ -1,0 +1,11 @@
+{
+  "fixture_only": true,
+  "IL": 10,
+  "delta_G_pp": 5,
+  "T": -5,
+  "malformed_inputs": {
+    "conservation": "rejected",
+    "missing_block": "rejected",
+    "unmatched_input": "rejected"
+  }
+}

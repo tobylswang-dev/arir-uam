@@ -1,0 +1,24 @@
+{
+  "records": 800,
+  "demand_sets": 100,
+  "mean_completions": {
+    "bypass": {
+      "joint": 721.84,
+      "vertiport_only": 702.11,
+      "corridor_only": 782.95,
+      "omit_both": 920.85
+    },
+    "fifo": {
+      "joint": 662.53,
+      "vertiport_only": 702.11,
+      "corridor_only": 694.44,
+      "omit_both": 920.85
+    }
+  },
+  "D_L": {
+    "bypass": -19.73,
+    "fifo": 39.58
+  },
+  "I_L": 59.31,
+  "scope": "stored-summary worked-example reproduction; no simulator rerun"
+}

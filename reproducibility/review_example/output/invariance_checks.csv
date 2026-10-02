@@ -1,0 +1,13 @@
+mode,group,comparisons,hash_agreement
+vertiport_only,"(np.float64(1.0), np.int64(1), np.int64(2), np.float64(1.0))",2,True
+vertiport_only,"(np.float64(1.0), np.int64(2), np.int64(2), np.float64(1.0))",2,True
+vertiport_only,"(np.float64(1.0), np.int64(3), np.int64(2), np.float64(1.0))",2,True
+corridor_only,"(np.float64(1.0), np.int64(1), np.int64(2), np.float64(1.0), 'bypass')",1,True
+corridor_only,"(np.float64(1.0), np.int64(1), np.int64(2), np.float64(1.0), 'fifo')",1,True
+corridor_only,"(np.float64(1.0), np.int64(2), np.int64(2), np.float64(1.0), 'bypass')",1,True
+corridor_only,"(np.float64(1.0), np.int64(2), np.int64(2), np.float64(1.0), 'fifo')",1,True
+corridor_only,"(np.float64(1.0), np.int64(3), np.int64(2), np.float64(1.0), 'bypass')",1,True
+corridor_only,"(np.float64(1.0), np.int64(3), np.int64(2), np.float64(1.0), 'fifo')",1,True
+omit_both,"(np.float64(1.0), np.int64(1))",2,True
+omit_both,"(np.float64(1.0), np.int64(2))",2,True
+omit_both,"(np.float64(1.0), np.int64(3))",2,True
