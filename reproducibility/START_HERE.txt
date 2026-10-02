@@ -1,12 +1,34 @@
-ARIR R68: local analysis reproduction bundle
+ARIR-UAM: public archived-analysis reproduction bundle
 
-1. Install numpy, pandas and scipy in your Python environment. The original environment record is ENVIRONMENT.json; this turn tested in the available environment, not a newly installed environment.
-2. Arithmetic/interface fixture: python review_example/run.py
-3. Real 100-demand-set worked example: python reproduce_worked_example.py
-4. Full stored-summary analysis: python arir.py --runs runs --output regenerated_report --events logs
+Repository: https://github.com/tobylswang-dev/arir-uam
 
-The fourth command reads 43,200 stored simulation summaries and uses 4,000 bootstrap resamples. Compare regenerated_report with report. It does not rerun 43,200 simulations. Only 24 selected runs have full stored visit logs; hashes in summaries cannot recreate missing event histories.
-The worked example uses seeds 20000-20099, demand 1, B=2, node=1, link=1.5 (800 records). It checks the reported absolute means and contrast decomposition, not the original 108-effect inferential family.
-For simulator reruns, independent-code checks, all inputs and supplementary analyses, use R68_complete_source_and_data.zip and its environment records. That archive is retained unchanged for provenance.
-UPSTREAM_IMPLEMENTATION_README.txt describes the original full-directory layout; use the commands above for THIS smaller bundle.
-No repository URL, DOI, external reviewer access, open-source licence or third-party reproduction is asserted. This is a local preparation package. Confirm rights and any anonymity requirements before publication.
+Run these commands from the reproducibility/ directory with Python,
+numpy, pandas and scipy installed. ENVIRONMENT.json records the original
+environment; local verification does not establish cross-platform equivalence.
+
+1. Arithmetic/interface fixture:
+   python review_example/run.py
+2. Real 100-demand-set worked example:
+   python reproduce_worked_example.py
+3. Full stored-summary analysis:
+   python arir.py --runs runs --output regenerated_report --events logs
+
+The third command reads 43,200 stored simulation summaries and uses 4,000
+bootstrap resamples. Compare regenerated_report/ with report/. It does not
+rerun the simulation campaign. Only 24 selected joint runs have complete
+stored request-scan logs; summary hashes cannot reconstruct missing histories.
+
+The worked example uses seeds 20000-20099, demand 1, B=2, node=1 and link=1.5:
+100 demand sets and 800 matched records. It checks the reported absolute means
+and contrast decomposition, not the original 108-effect inferential family.
+
+The separate R68_complete_source_and_data.zip is not included in this public
+repository snapshot. Full simulator execution, independent-code checks and
+the supplementary analyses require that separate archive. The upstream
+implementation README and historical manifests describe its original layout;
+they are provenance records, not an inventory of this smaller public bundle.
+
+See the repository-root README.md and LICENSE for licensing scope. Public
+availability does not establish a DOI deposit, third-party validation, or a
+conference policy on external review materials. Record the commit used when
+reusing the results.
